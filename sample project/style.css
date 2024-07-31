@@ -1,0 +1,38 @@
+#home {
+    background-image: url("image/muhabura\ view.jpg");
+    height: 90vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: home 20s linear infinite;
+}
+@keyframes home {
+    0% {
+      
+      background-image:  url("Assets/entrance_gate.JPG");
+    } 
+    25%{
+      
+      background-image:  url("Assets/rector_mass.JPG");
+    } 
+    50%{
+      
+      background-image: url("Assets/idem_destino.jpg");
+    } 
+    75%{
+      
+      background-image: url("Assets/football.JPG");
+      } 
+    100%{
+      
+      background-image: url("Assets/Staff.JPG");
+      } 
+       
+  
+  }
